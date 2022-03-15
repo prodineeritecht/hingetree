@@ -12,6 +12,7 @@ let
             text
             hlint
             p.ihp
+            hspec
         ];
         otherDeps = p: with p; [
             # Native dependencies, e.g. imagemagick
